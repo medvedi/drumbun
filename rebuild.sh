@@ -5,7 +5,7 @@
 # to run with a different drush binary, provide the name of the binary as parameter:
 # $ ./rebuild.sh drush5
 
-makefile=`find . -name stylista-no.make`
+makefile=`find . -name drumbun.make`
 
 if [[ -z $1 ]]
 then
