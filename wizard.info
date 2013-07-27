@@ -1,0 +1,4 @@
+; Drush configuration
+drupal core = 7.x
+hostnames[] = drumbun.com
+
