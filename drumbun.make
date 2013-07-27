@@ -44,6 +44,9 @@ projects[cache_actions][version] = 2.0-alpha5
 projects[ctools][subdir] = contrib
 projects[ctools][version] = 1.3
 
+projects[colorbox][subdir] = contrib
+projects[colorbox][version] = 2.4
+
 projects[comment_notify][subdir] = contrib
 projects[comment_notify][version] = 1.2
 
@@ -67,8 +70,8 @@ projects[entity][version] = 1.1
 projects[entityreference][subdir] = contrib
 projects[entityreference][version] = 1.0
 
-;projects[entity_view_mode][subdir] = contrib
-;projects[entity_view_mode][version] = 1.0-rc1
+projects[entity_view_mode][subdir] = contrib
+projects[entity_view_mode][version] = 1.0-rc1
 
 projects[emptyparagraphkiller][subdir] = contrib
 projects[emptyparagraphkiller][version] = 1.0-beta2
@@ -174,20 +177,6 @@ projects[logintoboggan][version] = 1.3
 ;projects[mailsystem][subdir] = contrib
 ;projects[mailsystem][version] = 2.34
 
-projects[media][subdir] = contrib
-projects[media][version] = 2.0-unstable7
-
-projects[media_feeds][subdir] = contrib
-projects[media_feeds][version] = 2.0-alpha1
-
-; Dev-version because 2.x branch aligns with Media 2.x
-projects[media_vimeo][type] = module
-projects[media_vimeo][subdir] = contrib
-projects[media_vimeo][download][type] = git
-projects[media_vimeo][download][revision] = 26b2eee8b7b62061f2ddadb2cd863fc8e497a8f9
-
-projects[media_youtube][subdir] = contrib
-projects[media_youtube][version] = 2.0-rc3
 
 ;projects[memcache_storage][subdir] = contrib
 ;projects[memcache_storage][version] = 1.0
@@ -216,9 +205,6 @@ projects[navigation404][version] = 1.0
 projects[nodequeue][subdir] = contrib
 projects[nodequeue][version] = 2.0-beta1
 
-
-projects[oembed][subdir] = contrib
-projects[oembed][version] = 0.1-beta3
 
 projects[panels][subdir] = contrib
 projects[panels][version] = 3.3
@@ -290,6 +276,9 @@ projects[views][version] = 3.7
 projects[views_bulk_operations][subdir] = contrib
 projects[views_bulk_operations][version] = 3.1
 
+projects[video_embed_field][subdir] = contrib
+projects[video_embed_field][version] = 2.0-beta5
+
 ; Dev version necessary for CKEditor 4 support.
 projects[wysiwyg][type] = module
 projects[wysiwyg][subdir] = contrib
@@ -302,8 +291,8 @@ projects[xmlsitemap][version] = 2.0-rc2
 
 ; themes
 
-projects[tweme][subdir] = contrib
-projects[tweme][version] = 1.2-alpha1
+;projects[tweme][subdir] = contrib
+;projects[tweme][version] = 1.2-alpha1
 
 
 ; libraries
@@ -314,3 +303,8 @@ libraries[ckeditor][download][type]= get
 libraries[ckeditor][download][url] = http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.0.1/ckeditor_4.0.1_full.tar.gz
 libraries[ckeditor][directory_name] = ckeditor
 libraries[ckeditor][destination] = libraries
+
+libraries[colorbox][download][type]= get
+libraries[colorbox][download][url] = https://github.com/jackmoore/colorbox/archive/1.x.zip
+libraries[colorbox][directory_name] = colorbox
+libraries[colorbox][destination] = libraries
