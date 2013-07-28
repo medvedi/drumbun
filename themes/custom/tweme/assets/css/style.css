@@ -97,12 +97,22 @@
   text-shadow: none;
 }
 
+/* Custom css. */
 .pane-node-field-image .field-item {
   float: left;
   padding: 0 5px 5px 9px;
   width: 100px;
 }
-
 #cboxLoadedContent {
   height: auto!important;
+}
+.panel-2col .panel-col-first {
+  width: 80%;
+}
+.panel-2col .panel-col-last {
+  width: 20%;
+}
+.teaser-article .main-image {
+  /*float: left;*/
+  /*margin-right: 10px;*/
 }
